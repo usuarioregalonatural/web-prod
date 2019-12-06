@@ -1,0 +1,99 @@
+@import "bourbon/_bourbon";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "_mixins";
+
+/************************************ 
+	Override Bootstrap 
+*************************************/
+
+$base-font-size: 14px;
+$font-size-lg: 14px;
+$font-size-sm: 13px;
+$font-size-xs: 12px;
+$font-size-h1: 22px;
+$font-size-h2: 20px;
+$font-size-h3: 18px;
+$font-size-h4: 18px;
+$font-size-h5: 16px;
+$font-size-h6: 15px;
+
+$font-family-base: 'Playfair Display', serif;
+
+// Heading
+$headings-font-family:   'Oswald', sans-serif;
+$headings-font-weight:   400;
+$headings-color:         #000000;
+
+// Color 
+$gray-darker: #414141;
+$gray-dark: #878787;
+$gray: #acaaa6;
+$gray-light: #ebebeb;
+$gray-lighter: #f6f6f6;
+
+$brand-primary: #3387f2;
+$brand-secondary: #ff0000;
+$brand-success: #4cbb6c;
+$brand-warning: #ff9a52;
+$brand-danger: #ff4c4c;
+
+// Color Body
+$body-bg: #fff;
+$body-color: #333;
+$link-color: #000;
+$link-hover-color: #f6d2e4;
+
+// Space
+$extra-small-space: 5px;
+$small-space: 10px;
+$medium-space: 20px;
+$large-space: 30px;
+$extra-large-space: 40px;
+
+// Warning
+$warning: #FF9A52;
+$warning-hover: #FDE7BB;
+$alert-warning-bg: rgba(255,154,82,0.3);
+$alert-warning-border: $warning;
+$alert-warning-text: $gray;
+
+// Button
+$btn-primary-color: #fff;
+$btn-primary-bg: $brand-primary;
+$btn-primary-border: transparent;
+
+$btn-secondary-color: $gray-darker;
+$btn-secondary-bg: $gray-lighter;
+$btn-secondary-border: transparent;
+
+$btn-border-radius: 2px;
+
+$btn-warning-bg: $warning;
+$btn-warning-color: white;
+$btn-tertiary-color: #6C868E;
+$btn-tertiary-hover: #BBCDD2;
+
+// Text 
+$text-muted: $gray;
+
+// Container 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px
+);
+
+// Breadcrumb
+$breadcrumb-bg:                 #0c0c0e;
+$breadcrumb-divider-color:      #FFFFFF;
+$breadcrumb-active-color:       #FFFFFF;
+$breadcrumb-divider:            "\f0da";
+
+// Carousel
+$carousel-control-color:        #999;
+$carousel-control-width:        40px;
+$carousel-control-opacity:      1;
+$carousel-control-font-size:    14px;
+$carousel-text-shadow:          none;

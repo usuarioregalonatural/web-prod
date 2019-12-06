@@ -1,0 +1,11 @@
+****Add new file****
+- modules\ps_advertising\ps_advertising.tpl
+
+****JS****
+- assets\js\theme.js
+
+****TPL****
+- modules\contactform\views\templates\widget\contactform.tpl
+- modules\ps_mainmenu\ps_mainmenu.tpl
+- templates\catalog\_partials\product-prices.tpl
+- templates\checkout\_partials\cart-detailed-actions.tpl

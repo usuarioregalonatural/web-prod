@@ -1,0 +1,95 @@
+.carousel-control{
+  z-index: 10;
+  width: 34px;
+  height: 34px;
+  border: 1px solid #e1e1e1;
+  background-image: none !important;
+  @include opacity(1);
+  line-height: 1; 
+  top: -55px;
+  color: #999;
+  @include transition(all 0.3s ease 0s);
+  background: $white;
+  &:hover,&:focus{
+    background: $theme-color-default;
+    color: $white;
+    border-color: transparent;
+    @include transition(all 0.3s ease 0s);
+  }
+  &:before{
+    position: relative;
+    content: "\f178";
+    font-family: $font-icon;
+    font-size: 14px;
+    text-shadow: none;
+    line-height: 33px;
+  }
+  &.right{
+    @include rtl-right(0);
+  }
+  &.left{
+    left: auto;
+    @include rtl-right(33px);
+    &:before{
+      content: "\f177";
+    }
+  }
+  .icon-prev,.icon-next{font-size: 0;}
+}
+
+// Override Input
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0; 
+}
+input[type=number] {
+  -moz-appearance:textfield;
+}
+input[type="file"]{
+  height: auto;
+}
+
+//@mixin button-variant-outline($color, $background, $border, $colorhover, $bghover, $borderhover ) {
+.btn-inverse{
+  @include button-variant-outline($white, $theme-color-default, $theme-color-default, $white, $nocolor, $border-color);
+} 
+.btn-outline{
+  @include button-variant-outline($white, #282d35, #282d35, $white, $theme-color-default, $theme-color-default);
+}
+.btn-primary.disabled:hover, .btn-primary:disabled:hover{
+  color: $white;
+}
+.btn{
+  @include rounded-corners($btn-border-radius);
+  &:active, 
+  &:focus, 
+  &:visited,
+  &.active:focus,
+  &:active:focus {
+    outline: none !important;
+    @include box-shadow(none);
+  }
+}
+
+.btn{
+  position: relative;
+  padding: 13px 35px;
+  color: $white;
+  font-family: $headings-font-family;
+  @include border-radius(0);
+  text-transform: uppercase;
+  background: $theme-color-secondary-1;
+  border: none;
+  @include transition(all 0.3s ease-out 0s);
+  font-weight: 400;
+  font-size: 14px;
+  &:hover{
+    background: $theme-color-default;
+    color: $theme-color-secondary;
+    @include transition(all 0.3s ease-out 0s);
+  }
+}
+

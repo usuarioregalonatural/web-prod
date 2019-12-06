@@ -1,0 +1,14 @@
+
+[{shop_url}]
+
+Merhaba Yönetici,
+
+Bir kullanıcı az önce bir geri bildirim gönderdi {shop_name}.
+
+İşte detaylar:
+
+E-posta: {email}
+
+Konu: {subject}
+
+Yorum Yap: {comment}

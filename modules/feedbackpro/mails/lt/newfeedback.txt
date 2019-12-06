@@ -1,0 +1,14 @@
+
+[{shop_url}]
+
+Sveiki, administratorius,
+
+Vartotojas tiesiog pateikė atsiliepimą adresu {shop_name}.
+
+Čia yra detalės:
+
+El. Paštas: {email}
+
+Tema: {subject}
+
+Komentuoti: {comment}

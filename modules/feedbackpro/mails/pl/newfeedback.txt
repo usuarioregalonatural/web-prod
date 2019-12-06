@@ -1,0 +1,14 @@
+
+[{shop_url}]
+
+Witaj Administrator,
+
+Użytkownik właśnie przesłał opinię na adres {shop_name}.
+
+Oto szczegóły:
+
+E-mail: {email}
+
+Przedmiot: {subject}
+
+Komentarz: {comment}

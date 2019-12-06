@@ -1,0 +1,96 @@
+/***************************************************
+  Mixins Themes 
+/***************************************************/
+/* Mixin Normal*/
+/* Mixin Clear */
+/* Mixin Border */
+/*background RGBA
+============================================*/
+/***************************************************
+  Mixins RTL Themes 
+/***************************************************/
+/************************************ 
+	Override Bootstrap 
+*************************************/
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors 
+ */
+/***********************************************************************/
+/** Header **/
+.header-top {
+  padding: 0 50px; }
+  @media (max-width: 991px) {
+    .header-top {
+      padding: 0 15px; } }
+
+/** MENU **/
+@media (min-width: 992px) {
+  .leo-megamenu {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    box-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center; } }
+
+/* mini basket */
+@media (max-width: 1199px) {
+  #cart-block {
+    padding: 40px 0 40px 10px; }
+    .rtl #cart-block {
+      padding: 40px 10px 40px 0; } }
+@media (max-width: 991px) {
+  #cart-block {
+    padding: 20px 0 20px 10px; }
+    .rtl #cart-block {
+      padding: 20px 10px 20px 0; } }
+@media (max-width: 1199px) {
+  #cart-block .cart-preview .header i {
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    text-align: center;
+    background: transparent;
+    border-radius: 0; } }
+@media (max-width: 1199px) {
+  #cart-block .cart-preview .cart-quantity {
+    position: absolute;
+    height: 18px;
+    min-width: 18px;
+    text-align: center;
+    top: -10px;
+    color: #000000;
+    left: 10px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    background: #f6d2e4;
+    font-size: 12px;
+    padding-left: 0; }
+    .rtl #cart-block .cart-preview .cart-quantity {
+      right: 10px;
+      left: auto; }
+    .rtl #cart-block .cart-preview .cart-quantity {
+      padding-right: 0;
+      padding-left: inherit; } }
+@media (max-width: 1199px) {
+  #cart-block .cart-preview .cart-quantity .cart-unit {
+    display: none; } }
+
+/*# sourceMappingURL=headerposition1482590952.css.map */

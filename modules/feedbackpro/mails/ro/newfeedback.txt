@@ -1,0 +1,14 @@
+
+[{shop_url}]
+
+Domnule Administrator,
+
+Un client tocmai a trimis un feedback {shop_name}.
+
+Aici sunt detaliile:
+
+E-mail: {email}
+
+Subiect: {subject}
+
+Comentariu: {comment}

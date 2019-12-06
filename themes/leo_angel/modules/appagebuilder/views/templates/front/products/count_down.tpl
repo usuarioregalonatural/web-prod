@@ -1,0 +1,1 @@
+<div class="leo-more-cdown" data-idproduct="{$product.id_product}"></div>

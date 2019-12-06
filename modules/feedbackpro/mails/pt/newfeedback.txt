@@ -1,0 +1,14 @@
+
+[{shop_url}]
+
+Olá administrador,
+
+Um usuário acabou de enviar um feedback em {shop_name}.
+
+Aqui estão os detalhes:
+
+E-mail: {email}
+
+Sujeito: {subject}
+
+Comente: {comment}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>leofeature</name>
+    <displayName><![CDATA[Caracter&iacute;stica Leo]]></displayName>
+    <version><![CDATA[2.1.1]]></version>
+    <description><![CDATA[Leo funci&oacute;n para PrestaShop 1.7: Ajax carrito, carro desplegable, mosca de la compra, revisar, comparar la lista de productos en la lista de deseos]]></description>
+    <author><![CDATA[Leotheme]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

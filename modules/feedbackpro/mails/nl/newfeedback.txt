@@ -1,0 +1,14 @@
+
+[{shop_url}]
+
+Hallo beheerder,
+
+Een gebruiker heeft zojuist feedback gegeven bij {shop_name}.
+
+Hier zijn de details:
+
+E-mail: {email}
+
+Onderwerpen: {subject}
+
+Commentaar: {comment}

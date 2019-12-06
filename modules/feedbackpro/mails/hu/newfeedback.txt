@@ -1,0 +1,14 @@
+
+[{shop_url}]
+
+Hello Administrator,
+
+Egy felhasználó csak visszajelzést küldött {shop_name}.
+
+Íme a részletek:
+
+Email: {email}
+
+Tantárgy: {subject}
+
+Megjegyzés: {comment}

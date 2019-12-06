@@ -1,0 +1,10 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+
+        .off-canvas-nav-megamenu .navbar-nav > li > a:hover, .off-canvas-nav-megamenu .navbar-nav > li > a:focus {
+          background: none;
+          color: #e86c19; 
+}
+

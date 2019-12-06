@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>advertisingpdf</name>
+	<displayName><![CDATA[Advertising PDF]]></displayName>
+	<version><![CDATA[1.6.7]]></version>
+	<description><![CDATA[G&eacute;n&eacute;rez un catalogue PDF de vos articles&lt;br/&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;Module r&eacute;alis&eacute; par&nbsp;&lt;a href=&quot;http://www.webbax.ch/&quot; class=&quot;action_module&quot; target=&quot;_blank&quot;&gt;www.webbax.ch&lt;/span&gt;&lt;/a&gt;]]></description>
+	<author><![CDATA[Webbax]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<confirmUninstall><![CDATA[Etes-vous sûr ?]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

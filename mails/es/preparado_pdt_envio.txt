@@ -1,0 +1,20 @@
+
+
+Hola {firstname} {lastname}, 
+
+* 
+
+* Su pedido con la referencia {order_name} está preparado y 
+pendiente de envío.
+
+En breve se informará a la agencia de transportes para
+realizar la recogida.
+
+Si tiene una cuenta de invitado, puede seguir su pedido desde la
+sección: "Seguimiento de invitado"
+[{guest_tracking_url}?id_order={order_name}] de
+nuestra tienda. 
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
+

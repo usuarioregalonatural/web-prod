@@ -1,0 +1,14 @@
+
+[{shop_url}]
+
+Hei Ylläpitäjä,
+
+Käyttäjä antoi juuri palautteen osoitteessa {shop_name}.
+
+Tässä ovat yksityiskohdat:
+
+Sähköposti: {email}
+
+Aihe: {subject}
+
+Kommentti: {comment}

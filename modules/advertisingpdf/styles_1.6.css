@@ -1,0 +1,17 @@
+.flag_id_lang{margin-bottom:5px;}
+
+#table_configuration hr{width:100%;}
+#table_configuration tr td{padding-top:5px;line-height:25px;padding-left:5px;}
+
+#table_configuration input[name=export]{float:left!important;width:220px!important;margin-right:5px;}
+#table_configuration input[name=img_p_width]{float:left!important;width:220px!important;margin-right:5px;}
+#table_configuration input[name=desc_short]{float:left!important;margin-right:5px;}
+#table_configuration input[name=desc_short_cut]{float:left!important;width:220px!important;margin-right:5px;}
+#table_configuration input[name=desc_full]{float:left!important;margin-right:5px;}
+#table_configuration input[name=desc_full_cut]{float:left!important;width:220px!important;margin-right:5px;}
+
+#table_configuration input[name=max_execution_time]{float:left!important;width:220px!important;margin-right:5px;}
+#table_configuration input[name=memory_limit]{float:left!important;width:220px!important;margin-right:5px;}
+
+.title_categories{font-size:20px;}
+ul.checkboxTree li span{top:-3px!important;}

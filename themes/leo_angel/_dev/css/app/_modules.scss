@@ -1,0 +1,183 @@
+// modules.scss
+
+@import "vars/modules.vars";
+// top bar module dropdown
+.popup-over{
+    position: relative;
+    @include rtl-float-right();
+    color: $theme-color-secondary;
+    .popup-title{
+        padding: 40px 10px;
+        display: inline-block;
+        font-size: 15px;
+        @media (max-width: 991px){
+          padding: 20px 7px;
+        }
+        &:hover{
+            color: $link-hover-color;
+        }
+    }
+    .popup-content{
+        padding: $small-space;
+        position: absolute;
+        top: 97%;
+        background: $white;
+        border: $main-border;
+        min-width: 165px;
+        z-index: 9999;
+        display: none;
+        @include rtl-right(0);
+        left: inherit;
+        @include transition(opacity 0.3s linear 0s);
+        @include border-radius(0);
+        @include rtl-text-align-left();
+        @media (max-width: 480px){
+            @include rtl-right(-40px);
+        }
+        a{
+            color: $theme-color-senary;
+            padding: 0;
+            font-size: 12px;
+            white-space: normal;
+            &:hover{
+                color: $link-hover-color;
+            }
+            .fa{
+                font-size: 14px;
+                width: 20px;
+            }
+        }
+        li{
+            display: block;
+            padding: 5px;
+            a{
+                img{
+                    vertical-align: 0;
+                }
+            }
+            &.current{
+                color: $theme-color-default;
+                a{
+                    color: $theme-color-default;
+                    img{
+                        width: 18px;
+                        height: 13px;
+                        padding: 1px;
+                        border: 1px solid $theme-color-default;
+                    }
+                }
+            }
+        }
+        .ap-total{
+            &:before{
+                content: '(';
+                display: inline-block;
+            }
+            &:after{
+                content: ')';
+                display: inline-block;
+            }
+        }
+    }
+    .fa{
+        font-size: 16px;
+    }
+    &:hover{
+        .popup-content{
+                display: block !important;
+            visibility: visible;
+        }
+    }
+}
+#leo_block_top{
+  .language-selector,
+  .currency-selector{
+    ul li{
+      display: inline-block;
+    }
+    span{
+      font-size: 12px;
+      color: $theme-color-secondary;
+    }
+  }
+  ul{
+    border: 1px solid $border-color;
+    margin-top: 5px;
+    padding: 0;
+    li{
+      &.selected {
+        a{
+          padding: 1px;
+          width: 18px;
+          height: 14px;
+          border: $main-border-hover;
+        }
+      }
+    }
+  }
+}
+/* mini basket */
+#cart-block{        
+    position: relative; 
+    @include rtl-float-right();
+    @include rtl-padding(27px,0,27px,10px);
+    /* @media (max-width: 1199px){
+        @include rtl-padding(40px,0,40px,10px);
+    }
+    @media (max-width: 991px){
+        @include rtl-padding(20px,0,20px,10px);
+    } */
+    .cart-preview {
+        .header{
+            position: relative;
+            @include display(flex);
+            @include align-items(center);
+            a{
+                position: relative;
+                @include display(flex);
+                @include align-items(center);
+                color: $theme-color-secondary;
+            }
+            i{
+                //font-size: 20px;
+                //@media (min-width: 1200px){
+                    font-size: 18px;
+                    width: 45px;
+                    height: 45px;
+                    line-height: 45px;
+                    text-align: center;
+                    background: $theme-color-default;
+                    @include border-radius(50%);
+                //}
+            }
+        }
+        .cart-quantity{
+           @include rtl-padding-left(10px);
+           font-size: 16px;
+           /* @media (max-width: 1199px){
+                position: absolute;
+                height: 18px;
+                min-width: 18px;
+                text-align: center;
+                top: -10px; 
+                color: $theme-color-secondary;
+                @include rtl-left(10px);
+                @include rounded-corners (100%);
+                background: $theme-color-default;
+                font-size: 12px;
+                @include rtl-padding-left(0);
+           } */
+        }
+        .body {
+            display: none;
+        }
+    }
+}
+/*** Responsive part ***/
+@include media-breakpoint-up(xl){
+    /* mini basket */
+}
+@include media-breakpoint-down(lg){
+}
+@include media-breakpoint-down(sm){
+}
